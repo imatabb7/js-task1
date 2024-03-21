@@ -36,16 +36,16 @@ else {
 // 4 - Write a program that transforms a numerical grade to a letter grade (e.g grade 10 should display “A”).
 
 var grade = +prompt("add your grade")
-if (grade >= 90){
+if (grade >= 90 && grade <= 100){
     console.log("A");
 }
-else if (grade >= 80){
+else if (grade >= 80 && grade < 90){
     console.log("B");
 }
-else if (grade >= 70){
+else if (grade >= 70 && grade < 80){
     console.log("C");
 }
-else if (grade >= 50){
+else if (grade >= 50 && grade < 70){
     console.log("D");
 }
 else {
